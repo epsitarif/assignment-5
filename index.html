@@ -30,15 +30,17 @@
                       <img src="/images/triangle.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
+                      <h2 class="card-title" id="first-name">Triangle</h2>
                       <p>Area (A) =0.5 x b x h</p>
                       <div class="grid md:grid-cols-1 lg:grid-cols-2">
-                        <input  type="text" placeholder="b" class="input input-bordered">
-                       <input type="text" placeholder="h" class="input input-bordered">
+                        <input  type="text" id="first-input" placeholder="b" class="input input-bordered">
+                        <button id="cm-button">CM</button>
+                       <input type="text" placeholder="h" id="second-input" class="input input-bordered">
+                       <button id="cm-button-2">CM</button>
                       </div>
                     
                       <div class="card-actions">
-                        <button class="btn btn-primary">Calculate</button>
+                        <button class="btn btn-primary" id="first-area">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -113,8 +115,33 @@
                     </div>
                   </div>
             </div>
+
+            <!--right-->
             <div class="area-details w-[25%] mx-auto mt-5 md:flex-row">
                 <h3 class="text-center underline">Area Calculation</h3>
+                  <div class="overflow-x-auto">
+                    <table class="table w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th>No</th>
+                          <th>Name</th>
+                          <th>price</th>
+                          <th>Quantity</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody id="table-container">
+                        <!-- row 1 
+                        <tr>
+                          <th>1</th>
+                          <td>Cy Ganderton</td>
+                          <td>Quality Control Specialist</td>
+                          <td>Blue</td>
+                        </tr> -->
+                      </tbody>
+                    </table>
+                  </div>
             </div>
         </section>
     </main>
