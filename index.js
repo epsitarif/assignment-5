@@ -17,7 +17,7 @@ document.getElementById('first-area').addEventListener('click', function() {
 
 
 
-// common functon to display data
+// common function to display data
 function displayData(nameOfT, valueOfT, btnOfT) {
     const container = document.getElementById('table-container');
 
