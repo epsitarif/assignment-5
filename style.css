@@ -1,0 +1,12 @@
+.convert-button{
+    background-color: #1090D8;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    
+    
+}
+.convert-button:hover{
+    background-color: yellow;
+    color: blueviolet;
+}
